@@ -1,0 +1,3 @@
+This repository demonstrates an unexpected behavior in React Router Dom v6 concerning catch-all routes.  The issue arises when a catch-all route (`/*`) is defined alongside other specific routes.  Regardless of the order of route definitions, the catch-all route always seems to be matched first, overriding other route definitions.
+
+The `App.js` file contains the buggy code, while `AppSolution.js` presents a solution. The problem is described in detail in the respective files.
